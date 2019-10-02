@@ -103,31 +103,31 @@
     },
     "ngx-library": {
       "projectType": "library",
-      "root": "projects/iplab/ngx-file-upload",
-      "sourceRoot": "projects/iplab/ngx-file-upload/src",
+      "root": "projects/file-upload",
+      "sourceRoot": "projects/file-upload/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/iplab/ngx-file-upload/tsconfig.lib.json",
-            "project": "projects/iplab/ngx-file-upload/ng-package.json"
+            "tsConfig": "projects/file-upload/tsconfig.lib.json",
+            "project": "projects/file-upload/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/iplab/ngx-file-upload/src/test.ts",
-            "tsConfig": "projects/iplab/ngx-file-upload/tsconfig.spec.json",
-            "karmaConfig": "projects/iplab/ngx-file-upload/karma.conf.js"
+            "main": "projects/file-upload/src/test.ts",
+            "tsConfig": "projects/file-upload/tsconfig.spec.json",
+            "karmaConfig": "projects/file-upload/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/iplab/ngx-file-upload/tsconfig.lib.json",
-              "projects/iplab/ngx-file-upload/tsconfig.spec.json"
+              "projects/file-upload/tsconfig.lib.json",
+              "projects/file-upload/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

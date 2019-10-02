@@ -2,7 +2,7 @@ import { Component, AfterViewInit, ElementRef } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import * as prettify from 'google-code-prettify/bin/prettify.min.js';
 
-import { FileUploadControl, FileUploadValidators } from '@iplab/ngx-file-upload';
+import { FileUploadControl, FileUploadValidators } from '@olly.john/file-upload';
 
 
 @Component({

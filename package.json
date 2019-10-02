@@ -1,7 +1,7 @@
 {
-  "name": "ngx-file-upload-demo",
+  "name": "file-upload-demo",
   "version": "0.0.1",
-  "author": "Ivan Pintar",
+  "author": "Olly John",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

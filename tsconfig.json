@@ -19,8 +19,8 @@
       "dom"
     ],
     "paths": {
-      "@iplab/ngx-file-upload": [
-        "projects/iplab/ngx-file-upload/src/public_api.ts"
+      "@olly.john/file-upload": [
+        "projects/file-upload/src/public_api.ts"
       ]
     }
   }
