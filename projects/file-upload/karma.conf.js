@@ -22,7 +22,7 @@ module.exports = function (config) {
       }
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../../../coverage/iplab/ngx-file-upload'),
+      dir: require('path').join(__dirname, '../../coverage/iplab/ngx-file-upload'),
       reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },
