@@ -1,0 +1,24 @@
+{
+  "name": "@olly.john/file-upload",
+  "description": "",
+  "homepage": "https://github.com/ollyjohn/file-upload",
+  "bugs": "https://github.com/ollyjohn/file-upload/issues",
+  "version": "2.0.0",
+  "author": "Olly John",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "file upload",
+    "angular 2+"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ollyjohn/file-upload.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/animations": "^8.0.0",
+    "rxjs": "^6.4.0"
+  }
+}
