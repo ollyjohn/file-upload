@@ -3,13 +3,17 @@
   "description": "",
   "homepage": "https://github.com/ollyjohn/file-upload",
   "bugs": "https://github.com/ollyjohn/file-upload/issues",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "author": "Olly John",
   "license": "MIT",
   "readmeFilename": "README.md",
   "keywords": [
     "file upload",
-    "angular 2+"
+    "angular 2+",
+    "angular 10",
+    "angular",
+    "file",
+    "upload"
   ],
   "repository": {
     "type": "git",

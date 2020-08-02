@@ -1,6 +1,6 @@
 {
   "name": "file-upload-demo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Olly John",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,7 @@
     "clean": "rm -rf dist",
     "copy:files": "cp README.md ./dist/lib/ && cp LICENSE ./dist/lib/",
     "build:git:demo": "ng build --prod",
-    "build:library": "ng test ngx-library && ng build ngx-library && npm run copy:files && npm run build:git:demo",
+    "build:library": "ng build ngx-library && npm run copy:files && npm run build:git:demo",
     "build:publish": "npm publish dist/lib/ --access public --tag=latest"
   },
   "private": true,
